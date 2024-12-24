@@ -29,7 +29,11 @@ namespace Karsilastirma
         }
         
         // While Döngüsü ve Do While Döngüsü arasındaki farklar : 
+        
         // While döngüsünde istenen koşul sağlanmadığı sürece döngü çalışmaz.
-        // Do While döngüsünde ise döngü en az bir kere çalışır ve koşul sağlanmadığı sürece döngü çalışmaya devam eder.
+
+        // Do While döngüsünde ise döngü en az bir kere çalışır ekrana girilen değeri yazdırır. Ardından koşul kontrol edilir ve koşul sağlanıyorsa döngü devam eder.Sağlanmıyorsa döngü sonlanır.
+
+        // Aradaki önemli fark do while döngüsünde koşul sağlanmasa bile döngü en az bir kere çalışır.
     }
 }
