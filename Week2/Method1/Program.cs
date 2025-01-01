@@ -33,7 +33,7 @@ class Program
     {
         return number1 * number2;
     }
-    // Soru 4: Parametre Alan ve Geriye Değer Döndürmeyen bir Metot. Parametre olarak isim ve soyisim bilgilerini alıp " Hoş Geldiniz {isim} {soyisim} " şeklinde ekrana bassın.
+    // Soru 4: Parametre Alan ve Geriye Değer Döndürmeyen bir Metot. Parametre olarak isim ve soyisim bilgilerini alıp " Hoş Geldiniz {isim} {soyisim} " şeklinde ekrana basın.
     public static void GreetUser(string name, string surname)
     {
         Console.WriteLine($"Hoş Geldiniz {name} {surname}");
