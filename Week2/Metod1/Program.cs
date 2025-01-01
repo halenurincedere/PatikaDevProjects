@@ -1,19 +1,10 @@
-﻿using System;
+using System;
 
 class Program
 {
     // Programın çalışması için Main metodu gereklidir.
     static void Main(string[] args)
-    {
-        // Başlangıçta tüm  metodları çağırıyoruz.  
-        PrintLyrics();
-        RandomNumber();
-        Console.WriteLine($"Ratgele sayının 2'ye bölümünden kalan : {RandomNumber()}");
-        Multiply(5, 6);
-        Console.WriteLine($"Sayıların Çarpımı: {Multiply(5, 6)}");
-        GreetUser("Gına", "Getiren");
-    }
-
+    
     // Soru 1: Geriye değer döndürmeyen void metot.Ekrana sevdiğiniz bir şarkı sözünü yazdırsın. 
     static void PrintLyrics()
     {
@@ -33,9 +24,10 @@ class Program
     {
         return number1 * number2;
     }
-    // Soru 4: Parametre Alan ve Geriye Değer Döndürmeyen bir Metot. Parametre olarak isim ve soyisim bilgilerini alıp " Hoş Geldiniz {isim} {soyisim} " şeklinde ekrana basın.
+    // Soru 4: Parametre Alan ve Geriye Değer Döndürmeyen bir Metot. Parametre olarak isim ve soyisim bilgilerini alıp " Hoş Geldiniz {isim} {soyisim} " şeklinde ekrana bassın.
     public static void GreetUser(string name, string surname)
     {
         Console.WriteLine($"Hoş Geldiniz {name} {surname}");
     } 
-}
+    
+} 
