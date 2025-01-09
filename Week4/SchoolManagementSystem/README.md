@@ -17,7 +17,11 @@ This project is designed to help you manage basic information for students and t
 
 ## ✨ Example Output
 ```bash
-Name: Halenur
-Surname: İncedere  
-Date of Birth: 18-08-1999   
+Students:
+Ad: Halenur, Soyad: İncedere, Doğum Tarihi: Wednesday, August 18, 1999
+Ad: Can, Soyad: Kutlu, Doğum Tarihi: Wednesday, April 17, 1996
+
+Teachers:
+Ad: Koray, Soyad: Adıvar, Doğum Tarihi: Tuesday, February 28, 1989
+Ad: Ayşe, Soyad: Yılmaz, Doğum Tarihi: Tuesday, March 12, 1985  
 ```
