@@ -1,4 +1,4 @@
-# SQL SQL Exercises 6
+# SQL Exercises 6
 In this project, we will be performing various SQL queries using the dvdrental sample database. Below are the requirements that the queries address:
 
 📋 Project Requirements
