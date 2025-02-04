@@ -1,0 +1,32 @@
+@model BasicMVCApp.Models.CustomerOrderViewModel
+
+<h2>Müşteri Bilgileri</h2>
+<ul>
+    <li><strong>ID:</strong> @Model.Customer.Id</li>
+    <li><strong>Ad:</strong> @Model.Customer.FirstName</li>
+    <li><strong>Soyad:</strong> @Model.Customer.LastName</li>
+    <li><strong>E-posta:</strong> @Model.Customer.Email</li>
+</ul>
+
+<h2>Satın Alınan Ürünler</h2>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ürün Adı</th>
+            <th>Fiyat</th>
+            <th>Miktar</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.Orders)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.ProductName</td>
+                <td>@order.Price ₺</td>
+                <td>@order.Quantity</td>
+            </tr>
+        }
+    </tbody>
+</table>
