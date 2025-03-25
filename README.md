@@ -22,9 +22,9 @@ Merhaba! 👋 Ben **Halenur İncedere**, bu repo [Patika.dev](https://www.patika
 |---------|-------------------------------------|------------------------------------|-------------------|
 | 1. Ay   | Git, Temel C#, OOP                  | Hesap Makinesi & Not Takip Sistemi | ✅ Tamamlandı     |
 | 2. Ay   | SQL, Kod Kalitesi                   | Görev Yönetim Sistemi              | ✅ Tamamlandı     |
-| 3. Ay   | Web API, .Net Core MVC, EF Core     | Kütüphane Yönetim Sistemi          | 🚀 Devam Ediyor   |
-| 4. Ay   | Mikroservisler ve Test              | E-Ticaret API Sistemi              | ⏳ Planlanıyor    |
-| 5. Ay   | HTML, CSS, Bootstrap, Tailwind      | Kişisel Portföy Sayfası            | ⏳ Planlanıyor    |
+| 3. Ay   | Web API, .Net Core MVC, EF Core     | Kütüphane Yönetim Sistemi          | ✅ Tamamlandı     |
+| 4. Ay   | Mikroservisler ve Test              | E-Ticaret API Sistemi              | ✅ Tamamlandı     |
+| 5. Ay   | HTML, CSS, Bootstrap, Tailwind      | Kişisel Portföy Sayfası            | 🚀 Devam Ediyor   |
 | 6. Ay   | JavaScript ve DOM                   | Hava Durumu Uygulaması             | ⏳ Planlanıyor    |
 | 7. Ay   | React (Components, State, Hooks)    | To-Do List veya Blog Sitesi        | ⏳ Planlanıyor    |
 | 8. Ay   | Redux ve Deployment                 | Fullstack Uygulama                 | ⏳ Planlanıyor    |
