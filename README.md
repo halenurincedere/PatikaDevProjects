@@ -5,10 +5,6 @@
   <i>Frontend & Backend projects, learned technologies, inspirations, and career goals</i>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Hello+I'm+Halenur!;Welcome+to+my+coding+journey.;Let’s+build+and+grow+together!&center=true&width=400&height=45">
-</p>
-
 ---
 
 ## 🚀 About Me
