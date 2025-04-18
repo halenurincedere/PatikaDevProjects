@@ -1,43 +1,67 @@
-# 📌 Patika.dev+ Full Stack Bootcamp
+<h1 align="center">✨ PatikaPlus- Full Stack Bootcamp Journey ✨</h1>
 
-Merhaba! 👋 Ben **Halenur İncedere**, bu repo [Patika.dev](https://www.patika.dev) platformunda aldığım **8 aylık Full Stack Bootcamp** sürecinde öğrendiğim dersleri, yaptığım ödevleri ve geliştirdiğim projeleri içerir. Amacım, yazılım geliştirme yeteneklerimi geliştirerek profesyonel bir Full Stack Developer olmaktır.
+<p align="center">
+  <b>8-Month Learning Journey</b><br>
+  <i>Frontend & Backend projects, learned technologies, inspirations, and career goals</i>
+</p>
 
----
-
-## 🎯 Bootcamp Hakkında
-
-**Bootcamp Süresi:** 8 Ay  
-**Başlangıç Tarihi:** Aralık 2024  
-**Eğitim Alanları:**
-- Backend: C#, .Net Core, Mikroservisler
-- Frontend: HTML, CSS, JavaScript, React, Redux
-- Veritabanı: SQL, EF Core
-- Diğer: Kod Kalitesi, Deployment, Test Otomasyonu
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=Hello+I'm+Halenur!;Welcome+to+my+coding+journey.;Let’s+build+and+grow+together!&center=true&width=400&height=45">
+</p>
 
 ---
 
-## 📚 Eğitim Programı ve Ödevler
+## 🚀 About Me
 
-| **Ay**  | **Konu ve Teknoloji**               | **Ödevler / Projeler**             | **Durum**         |
-|---------|-------------------------------------|------------------------------------|-------------------|
-| 1. Ay   | Git, Temel C#, OOP                  | Hesap Makinesi & Not Takip Sistemi | ✅ Tamamlandı     |
-| 2. Ay   | SQL, Kod Kalitesi                   | Görev Yönetim Sistemi              | ✅ Tamamlandı     |
-| 3. Ay   | Web API, .Net Core MVC, EF Core     | Kütüphane Yönetim Sistemi          | ✅ Tamamlandı     |
-| 4. Ay   | Mikroservisler ve Test              | E-Ticaret API Sistemi              | ✅ Tamamlandı     |
-| 5. Ay   | HTML, CSS, Bootstrap, Tailwind      | Kişisel Portföy Sayfası            | 🚀 Devam Ediyor   |
-| 6. Ay   | JavaScript ve DOM                   | Hava Durumu Uygulaması             | ⏳ Planlanıyor    |
-| 7. Ay   | React (Components, State, Hooks)    | To-Do List veya Blog Sitesi        | ⏳ Planlanıyor    |
-| 8. Ay   | Redux ve Deployment                 | Fullstack Uygulama                 | ⏳ Planlanıyor    |
+Hi there! 👋 I'm **Halenur İncedere**, currently participating in the **Patika.dev Full Stack Bootcamp**.  
+This repository contains all the weekly projects, assignments, and topics I worked on during this 8-month intensive program.  
+My goal is to become a strong and creative **Full Stack Developer** by building solid technical foundations and hands-on experience in real-world projects. 👩‍💻
 
 ---
 
-## 🛠️ Reponun Kullanımı
+## 🧠 Technologies I've Learned
 
-Bu repoda her hafta tamamladığım ödev ve projeler ayrı klasörler altında yer alacak.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,react,redux,tailwind,bootstrap,cs,dotnet,postgresql,git,github,vscode" />
+</p>
 
 ---
 
-## 📫 Bana Ulaşın
+## 🗓️ Bootcamp Timeline
 
-📧 **E-posta:** [halenurincedere@gmail.com](mailto:halenurincedere@gmail.com)  
-🌐 **LinkedIn:** [Halenur İncedere](https://www.linkedin.com/in/halenurincedere)  
+| Month | Topics Covered                         | Projects Completed                     | Status         |
+|-------|----------------------------------------|----------------------------------------|----------------|
+| 1     | Git, C# Fundamentals, OOP              | Note Tracker, Calculator App           | ✅ Completed    |
+| 2     | SQL, Clean Code                        | Task Management System                 | ✅ Completed    |
+| 3     | ASP.NET Core MVC, EF Core, Web API     | Library Management System              | ✅ Completed    |
+| 4     | Microservices Architecture, Testing    | E-Commerce API                         | ✅ Completed    |
+| 5     | HTML, CSS, Bootstrap, Tailwind         | Personal Portfolio Website             | 🚧 In Progress  |
+| 6     | JavaScript, DOM Manipulation           | Weather App                            | ⏳ Planned      |
+| 7     | React, State Management                | Blog / To-Do App                       | ⏳ Planned      |
+| 8     | Redux, Deployment                      | Fullstack Graduation Project           | ⏳ Planned      |
+
+---
+
+## 📂 Project Structure
+
+Each folder contains:
+- A weekly project based on the topics covered
+- A mini README with project details
+- Technologies used and summary notes
+- Proper Git version control applied
+
+---
+
+## 💡 Inspiration
+
+> "Progress is progress, no matter how small the steps."  
+> — *Halenur İncedere*
+
+---
+
+## 📫 Contact Me
+
+- 📧 halenurincedere@gmail.com  
+- 🔗 [LinkedIn – Halenur İncedere](https://www.linkedin.com/in/halenurincedere)
+
+---
