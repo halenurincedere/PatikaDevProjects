@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  color: #111;
+  background-color: white;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-header {
+  background-image: url('img/Milan_Kundera.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 3rem;
+  text-align: center;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.hero-header h1 {
+  font-size: 4rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.hero-header blockquote {
+  font-style: italic;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 3rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+  color: white;
+}
