@@ -1,0 +1,13 @@
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar input {
+    max-width: 250px;
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
