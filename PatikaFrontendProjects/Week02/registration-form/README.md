@@ -1,22 +1,25 @@
-#  LUMİ Registration Form
+# 📝 Registration Form – LUMİ Design
 
-This is a modern and minimalist **registration form** built with **HTML** and **CSS**, featuring a stylish black & white theme.
+A responsive and minimal **registration form** created with **HTML5** and **CSS3**.  
+Styled in a clean black & white (dark mode) theme, the form includes validation and interactive elements.
 
-## ✨ Features
+---
 
-- Responsive layout
-- Dark-themed modern UI
-- HTML5 validation for inputs
-- Includes:
-  - Name, Email, Age fields
-  - Gender dropdown
-  - Radio buttons for source
-  - Checkboxes for agreement & subscription
-  - Optional comment textarea
-  - Submit button
+## 💡 Features
 
-## 🛠️ Technologies
+- Dark mode theme (black & white)
+- Responsive design using Flexbox
+- Email and number field validation (HTML5)
+- Gender dropdown selection
+- Radio buttons (source)
+- Checkboxes (Terms & Subscription)
+- Textarea for suggestions
+- Styled submit button
 
-- HTML5
-- CSS3 (no frameworks)
-- Native form validation
+---
+
+## 🛠️ Technologies Used
+
+- HTML5  
+- CSS3 (no frameworks)  
+- Native browser validation  
