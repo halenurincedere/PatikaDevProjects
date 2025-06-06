@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Register Form</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #333, #111);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #eee;
+    }
+
+    #register-form {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 15px;
+      width: 350px;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    #title {
+      text-align: center;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+
+    #description {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-bottom: 1.5rem;
+      color: #bbb;
+    }
+
+    label {
+      margin-bottom: 0.3rem;
+      font-size: 0.9rem;
+      color: #ddd;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #555;
+      border-radius: 8px;
+      background-color: #2a2a2a;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #888;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: #999;
+      outline: none;
+    }
+
+    .radio-group,
+    .checkbox-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 0.5rem;
+      accent-color: #aaa;
+    }
+
+    textarea {
+      height: 80px;
+      resize: none;
+    }
+
+    #submit {
+      background-color: #eee;
+      border: none;
+      padding: 0.7rem;
+      border-radius: 8px;
+      color: #111;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #submit:hover {
+      background-color: #ccc;
+    }
+
+    select {
+      background-color: #2a2a2a;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <h1 id="title">Create Your Account</h1>
+    <p id="description">Register below to join the LUMİ platform</p>
+
+    <form id="register-form">
+
+      <label id="name-label" for="name">Full Name</label>
+      <input id="name" type="text" placeholder="Your name" required />
+
+      <label id="email-label" for="email">Email Address</label>
+      <input id="email" type="email" placeholder="example@email.com" required />
+
+      <label id="number-label" for="number">Age</label>
+      <input id="number" type="number" placeholder="Your age" min="10" max="100" required />
+
+      <label for="dropdown">Gender</label>
+      <select id="dropdown" required>
+        <option value="">-- Select --</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <div class="radio-group">
+        <p>How did you find us?</p>
+        <label><input type="radio" name="source" value="instagram" required />Instagram</label>
+        <label><input type="radio" name="source" value="linkedin" required />LinkedIn</label>
+      </div>
+
+      <div class="checkbox-group">
+        <label><input type="checkbox" value="terms" required />I agree to the Terms of Service</label>
+        <label><input type="checkbox" value="subscribe" />Subscribe to newsletter</label>
+      </div>
+
+      <label for="comments">Additional Comments</label>
+      <textarea id="comments" placeholder="Any suggestions?"></textarea>
+
+      <input id="submit" type="submit" value="Register" />
+    </form>
+  </div>
+
+</body>
+</html>

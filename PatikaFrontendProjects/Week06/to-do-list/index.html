@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yapılacaklar Listesi</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+</head>
+<body>
+
+  <!-- Toast Bildirimleri -->
+  <div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 9999">
+    <div id="successToast" class="toast hide bg-success text-white" role="alert" data-delay="2000">
+      <div class="toast-body">Görev başarıyla eklendi ✅</div>
+    </div>
+    <div id="errorToast" class="toast hide bg-danger text-white" role="alert" data-delay="2000">
+      <div class="toast-body">Boş görev eklenemez ❌</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <h2>📝 Yapılacaklar Listesi</h2>
+      <input type="text" id="taskInput" placeholder="Bugün ne yapacaksın?" />
+      <span id="addBtn" class="button">Ekle</span>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- jQuery & Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

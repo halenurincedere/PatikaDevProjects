@@ -1,0 +1,46 @@
+body {
+    background: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .menu-title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 2.5rem;
+    color: #c0392b;
+  }
+  
+  .btn-container .btn {
+    margin: 5px;
+  }
+  
+  .menu-item {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .menu-img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .menu-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .menu-title-price {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #b03a2e;
+  }
+  
+  .menu-desc {
+    font-size: 0.9rem;
+    color: #333;
+  }
