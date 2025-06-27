@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 80px);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.restart {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
