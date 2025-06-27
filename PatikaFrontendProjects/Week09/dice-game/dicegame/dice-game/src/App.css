@@ -1,0 +1,100 @@
+/* Sayfa genel yapısı için HTML ve body */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* App Wrapper ve içerik alanı */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+/* Arka plan ve yazı tipi */
+body {
+  background-color: #2b2d42;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+  color: #edf2f4;
+  padding: 20px;
+}
+
+/* Başlık (mesaj) */
+h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Oyuncu kutuları */
+.players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+/* Oyuncu adları */
+.player-label {
+  font-size: 2rem;
+  margin: 10px 0;
+  color: #8ef6e4;
+}
+
+/* Zar görselleri */
+.dice img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: #9e2a2b;
+  padding: 10px;
+}
+
+/* Zar atma butonu */
+button {
+  background-color: #06d6a0;
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00b894;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Oyuncu adı input */
+.name-input {
+  margin-bottom: 6px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Alt bilgi */
+footer {
+  margin-top: 20px;
+  padding: 50px; 
+  color: #ccc;
+  font-size: 1.9rem; 
+}
