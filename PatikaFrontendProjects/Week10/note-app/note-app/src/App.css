@@ -1,0 +1,149 @@
+/* Genel görünüm */
+body {
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Başlık */
+h1 {
+  margin-top: 20px;
+  color: #333;
+  font-size: 2.5rem;
+}
+
+/* Arama çubuğu */
+.search-bar input {
+  padding: 10px;
+  width: 240px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Not ekleme kutusu */
+.note-input {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Yazı kutusu */
+textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 10px;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  resize: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Renk seçiciler */
+.color-picker {
+  display: flex;
+  gap: 12px;
+  margin: 10px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.color {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: transform 0.2s ease;
+}
+
+.color.active {
+  border: 2px solid #333;
+  transform: scale(1.1);
+}
+
+/* Ekleme butonu */
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-weight: bold;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* Notları listeleme alanı */
+.note-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Her bir not kartı */
+.note-card {
+  position: relative;
+  width: 220px;
+  min-height: 100px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  color: #222;
+  font-weight: 500;
+  word-wrap: break-word;
+  text-align: left;
+  transition: transform 0.2s ease;
+  box-sizing: border-box;
+}
+
+.note-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Silme butonu */
+.delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  color: #c0392b;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: #ffe5e5;
+}
