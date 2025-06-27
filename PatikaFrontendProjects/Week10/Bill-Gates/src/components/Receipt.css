@@ -1,0 +1,63 @@
+.receipt {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 2px  #ccc;
+  background-color: #f8f8f8;
+}
+
+.receipt h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.receipt-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.receipt-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ddd;
+  font-size: 16px;
+}
+
+.item-name {
+  flex: 1;
+  text-align: left;
+}
+
+.item-qty {
+  flex: 0 0 400px;         
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.item-price {
+  flex: 0 0 100px;
+  text-align: right;
+  color: #00a86b;
+  font-weight: bold;
+}
+
+.receipt-total {
+  display: flex;
+  justify-content: space-between; 
+  max-width: 600px;
+  margin: 20px auto 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.total-label {
+  text-align: left;
+}
+
+.total-amount {
+  color: #00a86b;
+  text-align: right;
+}

@@ -1,0 +1,67 @@
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain; 
+    margin-bottom: 10px;
+}
+
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+}
+
+.card p {
+    color: #4caf50;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.buy-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sell-btn {
+    background-color: #a50000; 
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buy-btn:disabled,
+.sell-btn:disabled {
+    background-color: #555 !important; 
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.count-box {
+    background-color: #eee;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-weight: bold;
+}

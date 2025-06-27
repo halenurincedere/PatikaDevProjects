@@ -1,0 +1,21 @@
+.footer {
+  position: fixed;     /* Sabit durmasını sağlar */
+  bottom: 0;           /* Ekranın en altına yapışır */
+  left: 0;
+  width: 100%;
+  background-color: lightblue;  /* açık mavi arka plan */
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1); /* Üstüne hafif gölge */
+  font-size: 0.9rem;
+  z-index: 9999;       /* Her zaman en önde olsun */
+}
+
+.footer a {
+  color: #004080;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}

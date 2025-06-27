@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.bill-img {
+  width: 180px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.balance {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  border-radius: 0;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 30px; 
+  justify-content: center;
+}
