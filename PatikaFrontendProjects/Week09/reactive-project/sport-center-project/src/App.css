@@ -1,0 +1,272 @@
+/* ==== Global Reset ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f9fc;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  /* ==== Container ==== */
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* ==== Navbar ==== */
+  nav {
+    background-color: #355592;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ==== Hero ==== */
+  .hero {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    max-width: 700px;
+    border-radius: 8px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* ==== Section Title ==== */
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 4rem 0 2rem 0;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #355592;
+    display: block;
+    margin: 1rem auto 0 auto;
+    border-radius: 2px;
+  }
+  
+  /* ==== Statistics ==== */
+  .statistics {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eaf0f7;
+    padding: 4rem 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .stat {
+    text-align: center;
+    margin: 1rem;
+  }
+  
+  .stat h3 {
+    color: #355592;
+    font-size: 2rem;
+  }
+  
+  /* ==== Cards ==== */
+  .card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .card {
+    background: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 1rem;
+  }
+  
+  /* ==== BMI Calculator ==== */
+  .bmi {
+    background-color: white;
+    padding: 3rem 2rem;
+  }
+  
+  .bmi form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .bmi input,
+  .bmi select {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* ==== Contact ==== */
+  .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 4rem 2rem;
+  }
+  
+  .contact form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .contact iframe {
+    flex: 1;
+    min-width: 300px;
+    height: 300px;
+    border: none;
+  }
+  
+  /* ==== Footer ==== */
+  footer {
+    background-color: #355592;
+    color: white;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  footer h4 {
+    margin-bottom: 1rem;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin: 0.5rem 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ==== Responsive ==== */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      width: 100%;
+      padding-top: 1rem;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .statistics {
+      flex-direction: column;
+    }
+  
+    .card-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact {
+      flex-direction: column;
+    }
+  }
