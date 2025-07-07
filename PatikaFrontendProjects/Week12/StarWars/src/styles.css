@@ -1,0 +1,187 @@
+/* Global sıfırlama ve tema */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Orbitron', 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0d1117, #1a1f2c);
+  color: #d0d0ff;
+  overflow-x: hidden;
+  opacity: 0;
+  animation: fadeIn 0.6s ease-in-out forwards;
+}
+
+/* Fade-in efekti */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Başlık */
+.title {
+  font-size: 2.8rem;
+  color: #b0b4ff;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Arama alanı */
+.search-bar {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.search-bar input {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
+  width: 220px;
+  background: #1e2634;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.search-bar button {
+  background: #00b4d8;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.search-bar button:hover {
+  background: #0077b6;
+}
+
+/* Grid sistemi */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+/* Kart tasarımı */
+.card {
+  background: #1c2431;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 210px;
+  color: #fff;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 6px 25px rgba(0, 255, 255, 0.3);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+/* Daha Fazla Butonu */
+.load-more {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.6rem 1.5rem;
+  background: #00b4d8;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 12px #00b4d8;
+  text-align: center;
+}
+
+.load-more:hover {
+  background: #0077b6;
+}
+
+/* Geri butonu */
+.back-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: #00b4d8;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00b4d8;
+}
+
+.back-btn:hover {
+  background: #0077b6;
+}
+
+/* Detay sayfası için dış kapsayıcı */
+.detail-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+/* NASA temalı detay kartı */
+.detail-card {
+  background: #fefeff;
+  border-radius: 25px;
+  padding: 2.5rem;
+  border: 6px solid #2e1f3e;
+  box-shadow: 0 0 25px rgba(138, 121, 255, 0.4);
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  color: #2e2e3a;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Başlık */
+.detail-card h2 {
+  color: #8a79ff;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+/* Gemi görseli */
+.detail-card img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 25px;
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.4);
+  margin: 2rem 0;
+}
+
+/* Bilgi satırları */
+.detail-card p {
+  font-size: 1rem;
+  color: #444;
+  margin: 0.5rem 0;
+  text-align: left;
+}
+
+.detail-card p strong {
+  display: inline-block;
+  width: 200px;
+  color: #8a79ff;
+  font-weight: 600;
+}
