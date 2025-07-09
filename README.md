@@ -31,10 +31,10 @@ My goal is to become a strong and creative **Full Stack Developer** by building 
 | 2     | SQL, Clean Code                        | Task Management System                 | ✅ Completed    |
 | 3     | ASP.NET Core MVC, EF Core, Web API     | Library Management System              | ✅ Completed    |
 | 4     | Microservices Architecture, Testing    | E-Commerce API                         | ✅ Completed    |
-| 5     | HTML, CSS, Bootstrap, Tailwind         | Personal Portfolio Website             | 🚧 In Progress  |
-| 6     | JavaScript, DOM Manipulation           | Weather App                            | ⏳ Planned      |
-| 7     | React, State Management                | Blog / To-Do App                       | ⏳ Planned      |
-| 8     | Redux, Deployment                      | Fullstack Graduation Project           | ⏳ Planned      |
+| 5     | HTML, CSS, Bootstrap, Tailwind         | Personal Portfolio Website             | ✅ Completed    |
+| 6     | JavaScript, DOM Manipulation           | Weather App                            | ✅ Completed    |
+| 7     | React, State Management                | Blog / To-Do App                       | ✅ Completed    |
+| 8     | Redux, Deployment                      | Fullstack Graduation Project           | 🚧 In Progress  |
 
 ---
 
